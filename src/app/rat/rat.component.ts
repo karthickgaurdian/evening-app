@@ -1,3 +1,4 @@
+import { STRING_TYPE } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rat.component.css']
 })
 export class RatComponent implements OnInit {
-
+ 
   constructor() { }
 
   ngOnInit(): void {
